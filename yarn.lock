@@ -6362,6 +6362,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"chalk@npm:4.1.2, chalk@npm:^4.0.0, chalk@npm:^4.1.0, chalk@npm:^4.1.2":
+  version: 4.1.2
+  resolution: "chalk@npm:4.1.2"
+  dependencies:
+    ansi-styles: "npm:^4.1.0"
+    supports-color: "npm:^7.1.0"
+  checksum: cb3f3e594913d63b1814d7ca7c9bafbf895f75fbf93b92991980610dfd7b48500af4e3a5d4e3a8f337990a96b168d7eb84ee55efdce965e2ee8efc20f8c8f139
+  languageName: node
+  linkType: hard
+
 "chalk@npm:5.3.0":
   version: 5.3.0
   resolution: "chalk@npm:5.3.0"
@@ -6379,16 +6389,6 @@ __metadata:
     strip-ansi: "npm:^3.0.0"
     supports-color: "npm:^2.0.0"
   checksum: abcf10da02afde04cc615f06c4bdb3ffc70d2bfbf37e0df03bb88b7459a9411dab4d01210745b773abc936031530a20355f1facc4bee1bbf08613d8fdcfb3aeb
-  languageName: node
-  linkType: hard
-
-"chalk@npm:^4.0.0, chalk@npm:^4.1.0, chalk@npm:^4.1.2":
-  version: 4.1.2
-  resolution: "chalk@npm:4.1.2"
-  dependencies:
-    ansi-styles: "npm:^4.1.0"
-    supports-color: "npm:^7.1.0"
-  checksum: cb3f3e594913d63b1814d7ca7c9bafbf895f75fbf93b92991980610dfd7b48500af4e3a5d4e3a8f337990a96b168d7eb84ee55efdce965e2ee8efc20f8c8f139
   languageName: node
   linkType: hard
 
@@ -14123,7 +14123,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:6 || 7 || 8 || 9, minimatch@npm:9.0.3, minimatch@npm:^9.0.0, minimatch@npm:^9.0.1, minimatch@npm:^9.0.3":
+"minimatch@npm:6 || 7 || 8 || 9 || 10":
+  version: 10.0.1
+  resolution: "minimatch@npm:10.0.1"
+  dependencies:
+    brace-expansion: "npm:^2.0.1"
+  checksum: 082e7ccbc090d5f8c4e4e029255d5a1d1e3af37bda837da2b8b0085b1503a1210c91ac90d9ebfe741d8a5f286ece820a1abb4f61dc1f82ce602a055d461d93f3
+  languageName: node
+  linkType: hard
+
+"minimatch@npm:9.0.3, minimatch@npm:^9.0.0, minimatch@npm:^9.0.1, minimatch@npm:^9.0.3":
   version: 9.0.3
   resolution: "minimatch@npm:9.0.3"
   dependencies:
@@ -14332,7 +14341,7 @@ __metadata:
     sirv-cli: "npm:^2.0.2"
     stylelint: "npm:^16.2.0"
     tsx: "npm:^4.7.0"
-    type-coverage: "npm:^2.27.1"
+    type-coverage: "npm:^2.29.7"
     typescript: "npm:^5.3.3"
     unplugin-auto-import: "npm:^0.17.3"
     vite: "npm:^5.0.12"
@@ -20071,30 +20080,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-coverage-core@npm:^2.27.1":
-  version: 2.27.1
-  resolution: "type-coverage-core@npm:2.27.1"
+"type-coverage-core@npm:^2.29.7":
+  version: 2.29.7
+  resolution: "type-coverage-core@npm:2.29.7"
   dependencies:
     fast-glob: "npm:3"
-    minimatch: "npm:6 || 7 || 8 || 9"
+    minimatch: "npm:6 || 7 || 8 || 9 || 10"
     normalize-path: "npm:3"
     tslib: "npm:1 || 2"
     tsutils: "npm:3"
   peerDependencies:
     typescript: 2 || 3 || 4 || 5
-  checksum: 2ff2f777e577bcc14511d30996f2c9569390110b183ed554e86665a1ebed03a1635cfe0c05d7e769d773365568449a873c8d4ec31d57b428b7b82502f68c4346
+  checksum: c05a728b1a2fd9b96bb2de681d86506fb5d0ed7381ef4be43d37efbeb54828f08bea64cad88498d2d0ed9a0a8d6c7dfa76e0df60e51c67c3f2ae4ac0623e28df
   languageName: node
   linkType: hard
 
-"type-coverage@npm:^2.27.1":
-  version: 2.27.1
-  resolution: "type-coverage@npm:2.27.1"
+"type-coverage@npm:^2.29.7":
+  version: 2.29.7
+  resolution: "type-coverage@npm:2.29.7"
   dependencies:
+    chalk: "npm:4.1.2"
     minimist: "npm:1"
-    type-coverage-core: "npm:^2.27.1"
+    type-coverage-core: "npm:^2.29.7"
   bin:
     type-coverage: bin/type-coverage
-  checksum: f8daf990acb1ed6fb5bb48ebffa5ca9a844ce8bd2517911a480b618ffdacef6221f896a0037eb619b9b9abbeeeed8d779f9a11350b68a4e8236a8eb48f0cf2a5
+  checksum: 9d8880cc1935de1b8689ad4b6eafef43678619c83466c43291c6c54b77cf13a0a02dc5135016c349986b3f2af76652298de6882d00efa5272ce1aed6201ef96b
   languageName: node
   linkType: hard
 
