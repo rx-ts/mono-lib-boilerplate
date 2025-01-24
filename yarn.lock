@@ -4766,10 +4766,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/web@npm:^0.0.135":
-  version: 0.0.135
-  resolution: "@types/web@npm:0.0.135"
-  checksum: 655f80f0c4eb3915476c0fa59794f59f83ca801e44e39e507e043d929f359b0a142811e0baf056a20639fb803b092572c113e54693d6eb918a753de25dfe8103
+"@types/web@npm:^0.0.198":
+  version: 0.0.198
+  resolution: "@types/web@npm:0.0.198"
+  checksum: 235dc921498d77d13d704b4c9af0d56139271d70fbac8a5771392b66d4193f699faef5778835712e019a503cf48ee204d4fe34bb941b92ffd7c814bb39f5703d
   languageName: node
   linkType: hard
 
@@ -14313,7 +14313,7 @@ __metadata:
     "@types/node": "npm:^20.11.5"
     "@types/react": "npm:^18.2.48"
     "@types/react-dom": "npm:^18.2.18"
-    "@types/web": "npm:^0.0.135"
+    "@types/web": "npm:^0.0.198"
     "@vitejs/plugin-react-swc": "npm:^3.5.0"
     "@vitest/coverage-istanbul": "npm:^1.2.1"
     concurrently: "npm:^8.2.2"
